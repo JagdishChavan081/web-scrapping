@@ -1,4 +1,4 @@
-<img src="https://github.com/JagdishChavan081/web-scrapping/blob/master/images/Data%20Science.png" alt="webscrapping" width="600" height="500">
+<img src="https://github.com/JagdishChavan081/web-scrapping/blob/master/images/Data%20Science.png" alt="webscrapping" width="1000" height="500">
 
 <center><h1>WEB SCRAPING</h1><center>
 <b>
