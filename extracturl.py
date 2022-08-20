@@ -1,6 +1,6 @@
 #task: webscrapping with Bs4
 #author: Jagdish Chavan
-#for project purpose in this file Title extraction was performed from given link
+#extract urls 
 
 #step1) importing necessary package
 from bs4 import BeautifulSoup
@@ -10,4 +10,5 @@ import requests
 url='https://www.google.com/'
 req = requests.get(url)
 soup = BeautifulSoup(req.text,"html.parser")
-print(soup.title)
+for link in soup.find_all('a'):
+    print(link.get('herf'))
